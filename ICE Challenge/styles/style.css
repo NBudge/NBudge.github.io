@@ -1,0 +1,54 @@
+body {
+    background-color:pink;
+    text-align: center;
+    margin-right: 825px;
+    margin-left: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    color:white;
+    font-size: 22px;
+}
+
+.title:hover {
+    color:black;
+}
+
+.first-quote {
+    color:white;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.reference {
+    color:white;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.list {
+    text-align: left;
+    font-weight: bold;
+    font-size:15px;
+    line-height: 30px;
+}
+
+.picture {
+    width: 170px;
+}
+
+.large-quote {
+    color:white;
+    line-height: 45px;
+    font-size: 30px;
+    margin-right:50px;
+    margin-left:50px;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 15px;
+}
