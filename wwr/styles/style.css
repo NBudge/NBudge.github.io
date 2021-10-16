@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2{ 
+    margin: 0px;
+}
+
 body {
     background-color: #97DFFC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -15,23 +30,32 @@ header {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 35px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
     text-align: center;
     color: #4062BB;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
     background-color: #4062BB;
     color: #aee7fd;
+    text-decoration: italic;
 }
 
 .home-title {
     color: #97DFFC;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -42,6 +66,10 @@ h4 {
     background-color: #018E42;
     color: #97DFFC;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -51,6 +79,8 @@ h4 {
 
 .msg {
     background-color: #018E42;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -59,6 +89,8 @@ h4 {
 
 .msg p {
     color: #97DFFC;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 #hero-img {
@@ -81,28 +113,47 @@ main, .section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #4062BB;
+}
+
 #background {
     height: 725px;
-    background-color: #018E42;
+    background-color: #027738;
 }
 
 footer {
-    background-color: #4062BB;
+    background-color: #e6a986;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
-    color: #97DFFC;
+    color: #4062BB;
 }
 
 footer a {
-    color: #97DFFC;
+    color: #4062BB;
     text-decoration: none;
 }
 
 footer a:hover {
     color: #97DFFC;
+    text-decoration: italic;
 }
 
 footer h3 a:hover {
     text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
