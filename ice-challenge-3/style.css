@@ -1,0 +1,62 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: white;
+    border: solid 10px black;
+    border-radius:5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 75em;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 25em;
+    height: 500px;
+}
+
+.picture {
+    grid-column: 1/2;
+}
+
+.text {
+    margin: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.x {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.download {
+    font-size: 20px;
+}
+
+.text-box {
+    width: 475px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: orange;
+    color:white;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 175px;
+    padding: 5px;
+}
