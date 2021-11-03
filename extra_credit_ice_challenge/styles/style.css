@@ -1,0 +1,102 @@
+main {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #6d6c6c;
+}
+
+p {
+    color: #8b8b8b;
+}
+
+section {
+    border: solid black 1px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding-top: 20px;
+}
+
+.icon {
+    max-width: 100px;
+}
+
+.button {
+    Background-color: rgb(64, 91, 247);
+    color: white;
+    max-width: 50px;
+    margin: 10px auto;
+    padding: 10px 30px;
+    border: solid 3px white;
+    border-radius: 5px;
+    box-shadow: 2px 2px #b9b9b9;
+}
+
+.box_two {
+    padding: 0px;
+}
+
+.castle {
+    max-width: 100%;
+}
+
+.why {
+    color: rgb(48, 186, 231);
+    margin-top: -37px;
+}
+
+.x {
+    margin-right: -445px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.thumbs {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: -20px;
+    margin-bottom: 7px;
+}
+
+.thumbs_up {
+    max-width: 25px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 8px;
+    padding-right: 7px;
+}
+
+.thumbs_down {
+    max-width: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.like {
+    Background-color: rgb(64, 91, 247);
+    max-width: 70px;
+    margin: 0px auto;
+    padding: 0px 30px;
+    border: solid 3px white;
+    border-radius: 5px;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.like p{
+    color: white;
+    align-content: center;
+}
+
+.dislike {
+    Background-color: rgb(142, 142, 145);
+    max-width: 50px;
+    margin: 0px auto;
+    padding: 9px 30px;
+    border: solid 3px white;
+    border-radius: 5px;
+}
