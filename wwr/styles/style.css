@@ -220,7 +220,7 @@ main section img {
 
 .salmon-text, .gray-text, .grand-text {
     padding: auto 0;
-    margin: auto 0;
+    margin: auto 20px;
 }
 
 .river-img img {
