@@ -62,18 +62,18 @@ nav a:hover {
 }
 
 .home-title {
-    color: #97DFFC;
+    color: #fcdca1;
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4 {
-    color: #97DFFC;
+    color: #fcdca1;
 }
 
 .book, .join {
-    background-color: #027738;
-    color: #97DFFC;
+    background-color: #018E42;
+    color: #fae7c4;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -81,9 +81,17 @@ h4 {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover {
-    background-color: #01632f;
-    color: #aee7fd;
+.join {
+    background-color: #027738;
+}
+
+.book:hover, .join:hover, .img-box:hover {
+    background-color: #027738;
+    color: #fae7c4;
+}
+
+.join:hover {
+    background-color: #00632e;
 }
 
 .msg {
@@ -92,15 +100,15 @@ h4 {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #01550f;
 }
 
 .msg h2 {
-    color: #97DFFC;
+    color: #fcdca1;
 }
 
 .msg p {
-    color: #97DFFC;
+    color: #fcdca1;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -159,7 +167,7 @@ main section img {
 .card-img {
     border: 10px solid #4062BB;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #647367;
 }
 
 .card-img:hover {
@@ -189,7 +197,7 @@ main section img {
 .mountains {
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #01550f;
 }
 
 #background {
@@ -197,6 +205,47 @@ main section img {
     background-color: #027738;
     grid-column: 1/11;
     grid-row: 4/9;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.salmon-box, .gray-box, .grand-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+}
+
+.salmon-text, .gray-text, .grand-text {
+    padding: auto 0;
+    margin: auto 0;
+}
+
+.river-img img {
+    max-width: 100%;
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+.river-img {
+    max-width: 100%;
+    margin: auto 0;
+}
+
+.img-box {
+    background-color: #018E42;
+    color: #fae7c4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 0px;
+    margin-top: -75px;
+    border-radius: 5px;
 }
 
 footer {
@@ -210,11 +259,13 @@ footer {
 
 footer h3 {
     color: #4062BB;
+    font-family: 'Open Sans'
 }
 
 footer a {
     color: #4062BB;
     text-decoration: none;
+    font-family: 'Open Sans'
 }
 
 footer a:hover {
