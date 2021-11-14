@@ -5,9 +5,9 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #43b62d   ;
-  --secondary-color: #f2f526e0 ;
-  --accent1-color: #df7c20d2;
+  --primary-color: #542beb   ;
+  --secondary-color: #dadd1bec ;
+  --accent1-color: #b35b0aea;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
