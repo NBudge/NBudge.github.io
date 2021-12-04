@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+body {
+    width: 100%;
+    background-color: #ececd1;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda', cursive;
+}
+
+p, a {
+    font-family: 'Neucha', cursive;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    padding: 17px;
+  }
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #542beb;
+    overflow: auto;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 23%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #b35b0aea;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: #000000;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+.subpage_title {
+    font-size: 50px
+}
+
+.info_box {
+    display: grid;
+    grid-template-columns: 50px 1fr 25px 1fr 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left_column img, .right_column img {
+    width: 95%;
+}
+
+.left_column {
+    grid-column: 2/3;
+    margin: 0 50px;
+}
+
+.right_column {
+    grid-column: 4/5;
+    margin: 0 50px;
+}
+
+.action {
+    font-size: 50px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+footer {
+    background-color: #542beb;
+    padding: 25px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3 {
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: italic;
+}
+
+footer h3 a:hover {
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
