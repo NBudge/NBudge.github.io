@@ -5,6 +5,7 @@ body {
     background-color: #ececd1;
     padding: 0;
     margin: 0;
+    word-wrap: break-word;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,12 +77,13 @@ img {
     grid-row: 1/-1;
 }
 
-.title_section .title_box {
+.title_section, .title_box {
     font-size: 45px;
     text-align: center;
     background-color: #b35b0aea;
     grid-column: 4/8;
     grid-row: 2/4;
+    
 }
 
 .title-content {
